@@ -1,0 +1,61 @@
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a :hover {
+    background-color: #ddd;
+    color: aqua;
+}
+
+@media screen and (max-width: 600px) {
+    nav a {
+        float: none;
+        display: flex;
+        text-align: left;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders between cells are merged */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Light grey border */
+    padding: 8px; /* Adds space inside cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Light grey background for header cells */
+    font-weight: bold; /* Makes header text bold */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping effect for even rows */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Highlights row on hover */
+}
+
+caption {
+    font-size: 1.5em; /* Larger font size for the table caption */
+    margin: 10px; /* Adds space around the caption */
+}

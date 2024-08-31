@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/media.css">
+    <title> Media </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="media.html"> Media </a>
+            <a href="table.html"> Alt_School Courses </a> 
+            <a href="form.html"> Sign Up Form </a>
+            <a href="index.html"> About Me </a> 
+        </nav>
+    </header>
+
+    <main>
+        <h1> MEDIA ELEMENTS </h1>
+        
+        <section class="content">
+            <h3> About Me: </h3>
+            <p> My name is AFOLABI Victor Oladimeji, a Student of Cloud Engineering Programme, 
+                    under School of Engineering at Alt_School Africa. <br> 
+                    I graduated from University of Ilorin, where I had Bachelor of Science (B.Sc.) and Master 
+                    of Science (M.Sc.) from the Department of Computer Science. <br>
+                    I currently work in a private polytechnic, in the capacity of the Deputy Registrar. </p>
+        </section>
+        
+        <section class="content">
+            <h3> IMAGE Media </h3>
+            <picture>
+                <source media="(max-width: 1200px)" srcset="Assets/Passport .jpg" sizes="">
+                <source media="(max-width: 992px)" srcset="Assets/Passport .jpg" sizes="">
+                <source media="(max-width: 768px)" srcset="Assets/Passport .jpg" sizes="">
+                <source media="(max-width: 480px)" srcset="Assets/Passport .jpg" sizes="">
+                <source media="(max-width: 320px)" srcset="Assets/Passport .jpg" sizes="">
+                <img src="Assets/Passport .jpg" alt="Responsive Image">
+            </picture>
+        </section> 
+
+        <section class="content">
+            <h3> AUDIO Media </h3>
+            <audio controls> 
+                <source src="Assets/Alt_School Audio (About Me).aac" type="audio/aac">
+            </audio>
+        </section>
+        
+        <section class="content">
+            <h3> VIDEO Media </h3>
+            <video controls width="800">
+                <source src="Assets/Alt_School Video (About Me).mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section class="content">
+            <h3> iFRAME Media </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UCZz-qi4ORk?si=SD5Lu2YFsm_cKjko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        </section>
+
+        
+    </main>
+</body>
+
+</html>
